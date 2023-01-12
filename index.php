@@ -181,30 +181,56 @@
   
 <div style="background-color: #E8E8E8; height: 710px ; width: 1300px;" class="container mt-5 text-center">
      <center><h4 style="padding: 20px; color:#FF0566">Our capabalities</h4></center>
-    <div class="row row-cols-auto">
-      <div class="col">
-        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+    <div class="parent">
+      <div  >
+        <div class="btn-group me-1 " role="group" aria-label="Basic outlined example">
           <button  style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: purple;" type="button" class="btn btn-primary"><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
         </div>
       <!-- </div>
       <div class="col"> -->
-        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+        <div class="btn-group me-1 " role="group" aria-label="Basic outlined example">
           <button style="color: black; border-radius: 20px; height: 80px; width: 130px;" type="button" class="btn btn-outline-primary bttn">concept</button>
         </div>
       <!-- </div>
       <div class="col"> -->
-        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+        <div class="btn-group me-1 " role="group" aria-label="Basic outlined example">
           <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Design & Engineering</button>
         </div>
         <!-- </div>
         <div class="col"> -->
-        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+        <div class="btn-group me-1 " role="group" aria-label="Basic outlined example">
           <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
         </div>
       </div>
     </div>
   </div><br />
-  <style>
+
+
+<div class="container mt-5 text-center">
+<div class="parent">
+  <div class="btn-group me-1 " role="group" aria-label="Basic outlined example">
+    <button  style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: purple;" type="button" class="btn btn-primary"><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
+  </div>
+      <!-- </div>
+        <div class="col"> -->
+  <div class="btn-group me-1 " role="group" aria-label="Basic outlined example">
+    <button style="color: black; border-radius: 20px; height: 80px; width: 130px;" type="button" class="btn btn-outline-primary bttn">concept</button>
+  </div>
+      <!-- </div>
+        <div class="col"> -->
+  <div class="btn-group me-1 " role="group" aria-label="Basic outlined example">
+    <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Design & Engineering</button>
+  </div>
+        <!-- </div>
+          <div class="col"> -->
+  <div class="btn-group me-1 " role="group" aria-label="Basic outlined example">
+    <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
+  </div>
+</div>
+</div>
+
+  
+  <!-- <style>
   div.parent {
   display: flex;
 }
@@ -219,7 +245,7 @@ div.parent {
   <button class="button">2</button>
   <button class="button">3</button>
   <button class="button">4</button>
-</div>
+</div> -->
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

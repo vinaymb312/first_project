@@ -177,6 +177,7 @@
     <div class="vl"></div>
   </div>
 
+
   
 <div style="background-color: #E8E8E8; height: 710px ; width: 1300px;" class="container mt-5 text-center">
      <center><h4 style="padding: 20px; color:#FF0566">Our capabalities</h4></center>
@@ -201,8 +202,24 @@
           <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
         </div>
       </div>
-    </div><br />
-  
+    </div>
+  </div><br />
+  <style>
+  div.parent {
+  display: flex;
+}
+
+div.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+</style>
+<div class="parent">
+  <button class="button">1</button>
+  <button class="button">2</button>
+  <button class="button">3</button>
+  <button class="button">4</button>
+</div>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

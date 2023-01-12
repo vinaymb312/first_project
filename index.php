@@ -182,7 +182,7 @@
      <center><h4 style="padding: 20px; color:#FF0566">Our capabalities</h4></center>
     <div class="row row-cols-auto">
       <div class="col">
-        <div class="btn-group me-1" role="group" aria-label="Basic outlined example" style= "flex-wrap: wrap;">
+        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
           <button  style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: purple;" type="button" class="btn btn-primary"><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
         </div>
       <!-- </div>

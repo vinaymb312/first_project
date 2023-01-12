@@ -10,7 +10,7 @@
 
 </head>
 <body>
-  <div class="container sticky-top">
+  <div class="container-fluid sticky-top">
     <nav style="background-color: #FFFFFF !important; opacity:80%" class="navbar sticky-top navbar-expand-lg bg-light">
       <div class="container-fluid">
         <nav style="background-color: transparent;" class="navbar bg-light">
@@ -46,7 +46,7 @@
     </nav>
   </div>
 
-  <div class="container"> 
+  <div class="container-fluid"> 
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -63,15 +63,15 @@
     </div>
   </div>
 
-  <div class="container mt-5">
+  <div class="container-fluid mt-5">
     <center><h4 class="pink">Turning your goals into actions</h4></center>
   </div>
 
-  <div class="container mt-5">
+  <div class="container-fluid mt-5">
     <center><h1>Design house & a solutions advisors</h1></center>
   </div>
 
-  <div class="container mt-5">
+  <div style="padding: 30px;" class="container-fluid mt-5">
     <div class="row row-cols-1 row-cols-md-3">
       <div class="col">
         <div class="card mt-5 h-100">
@@ -106,7 +106,7 @@
     </div>
   </div><br /><br />
 
-  <div class="container design mt-5">
+  <div class="container-fluid design mt-5">
     <center><h4 style="padding: 3%;" class="pink mt-5">Design and Development</h4></center>
     <div class="container">
       <center><h1 style="color: white;">Design-For-Excellence</h1></center>

@@ -50,7 +50,7 @@
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="public/images/bg.png" class="d-block w-100" alt="backgroundimage">
+          <img src="public/images/bg.png" width="50%" height="600px;" class="d-block w-100" alt="backgroundimage">
 
           <div class="carousel-caption">
             <h2>WE bring concept into product and make concepts manufacturing ready in the shortest timespan</h2>

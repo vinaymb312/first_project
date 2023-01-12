@@ -460,20 +460,20 @@
     <div class="vl"></div>
   </div>
 
-  <div class="container mt-5 design3">
+  <div class="container-fluid mt-5 design3">
     <div class="row">
       <div class="col col-lg-4 text-left mt-5">
-        <p style="font-size: 28px; color: white">Global design and manufacturing servive provider</p>
+        <p style="font-size: 20px; color: white">Global design and manufacturing servive provider</p>
         <small style="color: white; font-size: 15px;">to be small , medium and large segments and cater the global customer with top notch quality</small>
       </div>
       <div class="col col-lg-8 text-center mt-5">
-        <button  type="button" class="btn btn-danger">Arrange a potential analysis now </button><br />
+        <button  type="button" style= "width:250px;" class="btn btn-danger">Arrange a potential analysis now </button><br />
         <center><small style="color: white;">100% free and non billing</small></center>
       </div>
     </div>
   </div>
 
-  <div style="background-color: lightgrey;" class="container mt-5">
+  <div style="background-color: lightgrey;" class="container-fluid mt-5">
     <center><h4>About us</h4></center>
     <center><h1>Skilled workers in a whole new way</h1></center>
     <p style="text-align:center;">
@@ -486,7 +486,7 @@
     </p>
   </div>
 
-  <div style="background-color: white; box-shadow: 4px 4px 4px lightgray;" class="container mt-5 card-body shadow p-3  rounded">
+  <div style="background-color: white; box-shadow: 4px 4px 4px lightgray;" class="container-fluid mt-5 card-body shadow p-3  rounded">
     <button style="width: 16%; height: 70px; " type="button" class="btn btn-dark large">DMLS</button>
     <button style="width: 16%; height: 70px;" type="button" class="btn btn-light large">FDM</button>
     <button style="width: 16%; height: 70px;" type="button" class="btn btn-light large">MJF</button>
@@ -507,7 +507,7 @@
           <li>Number of printers : 03</li>
         </ul>
       </div>
-      <div class="col col-lg-4 col-sm-4 mt-5">
+      <div class="col col-md-4 col-sm-4 mt-5">
         <img style="margin-left: 150px;" src="public/images/direct1.png" alt="image" height="200px" width="200px"><br /><br />
         <img  style="margin-left: 150px;" src="public/images/direct2.png" alt="image"height="200px" width="200px"><br /><br />
         <img  style="margin-left: 150px;"src="public/images/direct3.png" alt="image" height="200px" width="200px"><br />

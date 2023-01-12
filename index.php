@@ -53,10 +53,10 @@
           <img src="public/images/bg.png" class="d-block w-100" alt="backgroundimage">
 
           <div class="carousel-caption">
-            <h2 >WE bring concept into product and make concepts manufacturing ready in the shortest timespan</h2>
-            <p style="margin: 2em 0;">We are design firm with an internationl presence. At Gennuine Global we manage ideas and <br/>
+            <h2>WE bring concept into product and make concepts manufacturing ready in the shortest timespan</h2>
+            <p >We are design firm with an internationl presence. At Gennuine Global we manage ideas and <br/>
             bring life to them with high-Quality Engineering talent and substantial cost advantage</p>
-            <button style="margin: 1em 0; width: 300px; font-size: 15px;" type="button" class="btn btn-danger hoverred">Get Potential analysis<br/>free and without obligation</button>
+            <button style="margin: 1em 0; width: 300px;" type="button" class="btn btn-danger hoverred">Get Potential analysis<br/>free and without obligation</button>
           </div>
         </div>
       </div>
@@ -71,7 +71,7 @@
     <center><h1>Design house & a solutions advisors</h1></center>
   </div>
 
-  <div style="padding: 30px;" class="container-fluid mt-5">
+  <div style="padding: 3%;" class="container-fluid mt-5">
     <div class="row row-cols-1 row-cols-md-3">
       <div class="col">
         <div class="card mt-5 h-100">
@@ -177,67 +177,67 @@
     <div class="vl"></div>
   </div>
 
-  <div style="background-color: #E8E8E8; height: 780px ; width: 1350px;" class="container mt-5">
+  <!-- <div style="background-color: #E8E8E8; height: 780px ; width: 1350px;" class="container mt-5">
     <center><h4 style="padding: 20px;">Our capabalities</h4></center>
     <div class="row row-cols-auto">
       <div  class="col">
         <div style=" background-color: white; border-radius: 50px; height: 110px; width: 1200px;" class="mt-5">
-          <button style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-top-left-radius: 50px;border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: #9C02AE" type="button" class="btn btn-primary "><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
+          <button class="capbutton" style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-top-left-radius: 50px;border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: #9C02AE" type="button" class="btn btn-primary "><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
 
           <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
-            <button style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Concept </button>
+            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Concept </button>
           </div>
           <div class="btn-group me-1" role="group" aria-label="First group">
-            <button style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Design<br />&<br /> Engineering</button>
+            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Design<br />&<br /> Engineering</button>
           </div>
           <div class="btn-group me-1" role="group" aria-label="First group">
-            <button style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
+            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
           </div>
         </div>
 
         <div style=" background-color: white; border-radius: 50px; height: 110px; width: 1200px;" class="mt-5">
-          <button style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px;  background-color: #7031C2" type="button" class="btn btn-primary "><img style="float: left;" src="public/images/darkblue.png"><span>Manufacturing <br />Services</span></button>
+          <button class="capbutton" style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px;  background-color: #7031C2" type="button" class="btn btn-primary "><img style="float: left;" src="public/images/darkblue.png"><span>Manufacturing <br />Services</span></button>
           <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
-            <button style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Design <br />&<br /> Engineering</button>
+            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Design <br />&<br /> Engineering</button>
           </div>
           <div class="btn-group me-1" role="group" aria-label="First group">
-            <button style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
+            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
           </div>
           <div class="btn-group me-1" role="group" aria-label="First group">
-            <button style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Pilot Production</button>
+            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Pilot Production</button>
           </div>
           <div class="btn-group me-1" role="group" aria-label="First group">
-            <button style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Mass Production</button>
+            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Mass Production</button>
           </div>
           <div class="btn-group me-1" role="group" aria-label="First group">
-            <button style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Product <br />Life Cycle<br /> Management</button>
+            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Product <br />Life Cycle<br /> Management</button>
           </div>
         </div>
 
         <div style=" background-color: white; border-radius: 50px; height: 110px; width: 1200px;" class="mt-5">
-          <button style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: #F8005D" type="button" class="btn btn-primary "><img style="float: left;" src="public/images/pink.png"><span>Build to <br />Specification</span></button>
+          <button class="capbutton" style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: #F8005D" type="button" class="btn btn-primary "><img style="float: left;" src="public/images/pink.png"><span>Build to <br />Specification</span></button>
           <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
-            <button style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">concept</button>
+            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">concept</button>
           </div>
           <div class="btn-group me-1" role="group" aria-label="First group">
-            <button style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">Design <br />&<br /> Engineering</button>
+            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">Design <br />&<br /> Engineering</button>
           </div>
           <div class="btn-group me-1" role="group" aria-label="First group">
-            <button style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
+            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
           </div>
           <div class="btn-group me-1" role="group" aria-label="First group">
-            <button style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">Pilot Production</button>
+            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">Pilot Production</button>
           </div>
           <div class="btn-group me-1" role="group" aria-label="First group">
-            <button style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">Mass Production</button>
+            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">Mass Production</button>
           </div>
           <div class="btn-group me-1" role="group" aria-label="First group">
-            <button style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">Product <br />Life Cycle<br /> Management</button>
+            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">Product <br />Life Cycle<br /> Management</button>
           </div>
         </div>
 
         <div style=" background-color: white; border-radius: 50px;  height: 100px; width: 1200px;" class="mt-5">
-          <button style="height: 100px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: #0E95E3;" type="button" class="btn btn-primary"><img style="float: left;" src="public/images/skyblue.png" alt="img" height="50px;" width="50px;"><span>After Sales <br />Support</span></button><p style="float: right; padding: 35px;">Tailored after market support to constantly maximize manufacturing value, including in-depth warranty, product information <br/>
+          <button class="capbutton" style="height: 100px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: #0E95E3;" type="button" class="btn btn-primary"><img style="float: left;" src="public/images/skyblue.png" alt="img" height="50px;" width="50px;"><span>After Sales <br />Support</span></button><p style="float: right; padding: 35px;">Tailored after market support to constantly maximize manufacturing value, including in-depth warranty, product information <br/>
           management, logistics repair and rework services.</p>
         </div>
         <div class="container mt-5">
@@ -245,37 +245,122 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="container mt-5 text-center">
+  <div style="background-color: #E8E8E8; height: 710px ; width: 1300px;" class="container mt-5 text-center">
+     <center><h4 style="padding: 20px;">Our capabalities</h4></center>
+    <div class="row row-cols-auto">
+      <div class="col">
+        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+          <button  style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-bottom-left-radius: 40px; background-color: purple" type="button" class="btn btn-primary "><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
+        </div>
+      <!-- </div>
+      <div class="col"> -->
+        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; height: 80px; width: 130px;" type="button" class="btn btn-outline-primary bttn">concept</button>
+        </div>
+      <!-- </div>
+      <div class="col"> -->
+        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Design & Engineering</button>
+        </div>
+        <!-- </div>
+        <div class="col"> -->
+        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
+        </div>
+      </div>
+    </div><br />
+
     <div class="row row-cols-auto">
       <div class="col">
         <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
           <button style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-bottom-left-radius: 40px; background-color: purple" type="button" class="btn btn-primary "><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
         </div>
-      </div>
-      <div class="col">
+     <!--  </div>
+      <div class="col"> -->
         <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
-          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">one <br />&<br /> Engineering</button>
+          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Design & Engineering</button>
+        </div>
+     <!--  </div>
+      <div class="col"> -->
+        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
+        </div>
+      <!-- </div>
+      <div class="col"> -->
+        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Pilot Production</button>
+        </div>
+      <!-- </div>
+      
+      <div class="col"> -->
+        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Mass Production</button>
+        </div>
+      <!-- </div>
+      <div class="col"> -->
+        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Product <br />Life cycle <br /> Management</button>
         </div>
       </div>
-      <div class="col">
-        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
-          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">two <br />&<br /> Engineering</button>
-        </div>
-      </div>
-      <div class="col">
-        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
-          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">three <br />&<br /> Engineering</button>
-        </div>
-      </div>
-    </div>
-  </div>
+    </div><br />
 
-  <div class="container mt-5 design2" >
-    <center><h1 style="color: white; padding: 25px;">Market Segments</h1></center>
+    <div class="row row-cols-auto">
+      <div class="col">
+        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+          <button style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-bottom-left-radius: 40px; background-color: purple" type="button" class="btn btn-primary "><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
+        </div>
+     <!--  </div>
+      <div class="col"> -->
+        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">concept</button>
+        </div>
+      <!-- </div>
+      <div class="col"> -->
+        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Design & Engineering</button>
+        </div>
+      <!-- </div>
+      <div class="col"> -->
+        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
+        </div>
+      <!-- </div>
+      <div class="col"> -->
+        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Pilot Production</button>
+        </div>
+      <!-- </div>
+      <div class="col"> -->
+        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Mass Production</button>
+        </div>
+     <!--  </div>
+      <div class="col"> -->
+        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Product <br />Life cycle <br /> Management</button>
+        </div>
+      </div>
+    </div><br />
+
+     <div class="row row-cols-auto">
+      <div class="col">
+        <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
+          <button style="height: 100px ; width: 15%; border-top-left-radius: 50px; border-bottom-left-radius: 40px; background-color: purple" type="button" class="btn btn-primary "><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
+          <p style="font-size: 14px; float: right;padding: 38px;">Tailored aftermarket support to constantly maximize manufacturing value, including in-depth warranty, product information management, logistics, repair and rework services.</p>
+        </div>
+      </div>
+    </div><br />
     <div class="container mt-5">
-      <div class="row row-cols-1 row-cols-md-4 g-4">
+          <center><button style="width: 300px;"  type="button" class="btn btn-danger">Get Potential analysis<br/>free</button></center>
+        </div>
+  </div><br /><br />
+
+  <div class="container-fluid mt-5 design2" >
+    <center><h1 style="color: white; padding: 40px;">Market Segments</h1></center>
+    <div class="container mt-5">
+      <div class="row row-cols-1 row-cols-md-4 row-cols-sm-4">
         <div class="col">
           <div class="card h-100">
 
@@ -320,27 +405,27 @@
     </div>
   </div>
 
-  <div class="container mt-4">
+  <div class="container-fluid mt-4">
     <div class="vl"></div>
   </div>
 
-  <div class="container mt-5">
+  <div class="container-fluid mt-5">
     <center><h4 class="pink">System Interation</h4></center>
   </div>
 
-  <div style="height: 300px; background-color: white transparent !important;"class="container mt-5text-center">
+  <div class="container-fluid mt-5text-center">
     <div class="row mt-5">
-      <div class="col-md-6 col-sm-6">
-        <div  style="padding-top: 4%; padding-left: 8%; class="center2">
+      <div class="col col-md-6 col-sm-6">
+        <div  style="padding-top: 4%; padding-left: 8%;" class="center2">
           <!-- <p style="font-size:25px; padding-left: 5%; padding-top: 5%; text-align: left; width: 500px; height: 190px; background-color: white; box-shadow: 4px 4px 4px lightgray;"> -->
-            <p style="font-size:25px; padding-left: 5%; padding-top: 5%; text-align: left;  width: 500px; height: 200px; background-color: white;" class="card-body shadow p-3  rounded">
+            <p style="font-size:25px; margin: 25px; padding-left: 15%; text-align: left;  width: 500px; height: 200px; background-color: white;" class="card-body shadow p-3  rounded">
               Expert material planning team to<br />
               ensure zero gap between production<br />
               forecast and customer delivery.
             </p>
         </div>
       </div>
-      <div style="font-size: 15px;"class="col-md-6 col-sm-6 ">
+      <div class="col col-md-6 col-sm-6 ">
           <img src="public/images/correct.jpeg" alt="image" height="50px;" width="50px;" /><span style="margin: 30px;">High-tech facility for Box-Build / Product Integration</span><br />
           <img src="public/images/correct.jpeg" alt="image" height="50px;" width="50px;" /><span style="margin: 30px;">Domain expertise in value engineering and localization for cost optimization</span><br />
           <img src="public/images/correct.jpeg" alt="image" height="50px;" width="50px;" /><span style="margin: 30px;">Strong vendor base development & vendor quality management programs</span><br />
@@ -350,7 +435,7 @@
     </div>
   </div>
 
-  <div class="container mt-1">
+  <div class="container mt-5">
     <div class="vl"></div>
   </div>
 

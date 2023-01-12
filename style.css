@@ -35,7 +35,7 @@
     background-image: url('public/images/design.png');
     background-size: auto;
     background-repeat: no-repeat;
-    height: 1050px;
+    height: 1200px;
 
     background-size: 100% 100%;
 
@@ -47,11 +47,18 @@
 }
 .design2 {
     background-image: url('public/images/market.png');
-    background-size: auto;
+    /*background-size: auto;*/
     background-repeat: no-repeat;
-    height: 550px;
-    background-size: 100% 100%;
+    height: 510%;
+    background-size:  100% 100%;
+
 }
+/* background-size:  100% 200%;
+    -webkit-background-size: 780% auto;
+-moz-background-size: 150% auto;
+-o-background-size: 150% auto;*/
+
+
 .design3 {
     background-image: url('public/images/market_segment.png');
      height: 280px;   
@@ -64,11 +71,6 @@
   margin-left: -2px;
   top: 0;
 }
-/*.bttn {
-    background-color: red;
-    margin: 1em 0;
-}*/
-
 .mainContainer {
     height: 70vh;
     background-image: url('public/images/nav.jpg');
@@ -88,79 +90,38 @@
 /*.hoverred:hover {
     background-color: darkpink;
 }*/
-.bttn { 
-    border-color: lightgray;
-    margin: 5px;
-}
+
 .bttn:hover {
-    border-color: lightgray;
-    background-color: white;
-}
-
-@media screen and (max-width: 1400px) {
-  * {
-    font-size: 15px;
-  }
-  .button {
-        width: 10px !important;
-        height: 70px !important;
- }
-  
+    background-color: #E8E8E8;
 }
 
 
-@media screen and (max-width: 1200px) {
-  * {
-    font-size: 13px;
-    border-top-left-radius: 20px; 
-    border-bottom-left-radius: 20px; 
-    /*height: 110px;*/
-  }
-  .button {
-        width: 8px !important;
-        height: 50px !important;
- }
-  }
 
- /* @media screen and (max-width: 992px) {
-    * {
-        font-size: 8px;
-
-    }*/
-    .button {
-        width: 4px !important;
-        height: 40px !important;
- }
-  }
-
-
- /* @media screen and (max-width: 900px) {
-  * {
-    font-size: 6px;
-    /*background-color: white; */
-    border-top-left-radius: 20px; 
-    border-bottom-left-radius: 20px; 
-    /*height: 110px;*/
-  }
-  }*/
 
 @media (min-width: 576px) { // Small devices (landscape phones, 576px and up)
-  .carousel-caption h3 { font-size: 1.3em;}
-  .carousel-caption p {font-size: 1.1em;}  
+  /*.carousel-caption h2 { font-size: 10px;}*/
+  .carousel-caption p {font-size: 8px;}
+  .capbutton {width: 100px;} 
+  h5 {font-size: 15px;}
+  .bttn {
+    width: 100px;
+} 
 }
 @media (min-width: 768px) {// Medium devices (tablets, 768px and up)
-  .carousel-caption h3 { font-size: 1.4em;}
-  .carousel-caption p {font-size: 1.2em;}  
+  .carousel-caption h2 { font-size: 15px;}
+  .carousel-caption p {font-size: 8px;}  
+  /*.carousel-caption button {width: 100px;}
+    button {width: 100px;}*/
   /*.card-title h5 {font-size: 0.5em;} */
 }
 @media (min-width: 992px) { // Large devices (desktops, 992px and up)
-  .carousel-caption h3 { font-size: 1.5em;}
-  .carousel-caption p {font-size: 1.3em;} 
+  .carousel-caption h2 { font-size: 10px;}
+  .carousel-caption p {font-size: 7px;} 
   .card {h}
 
 }
 @media (min-width: 1200px) { // Extra large devices (large desktops, 1200px and up)
-  .carousel-caption h3 { font-size: 1.6em;}
+  .carousel-caption h2 { font-size: 1.6em;}
   .carousel-caption p {font-size: 1.4em;}  
 }
 
@@ -168,15 +129,35 @@
 /*cards*/
 
 @media (max-width: 575.98px) { height:10% }
+.carousel-caption h2 { font-size: 15px;}
+.carousel-caption p { font-size: 7px;}
+p { font-size: 7px; }
+.bttn {
+    width: 50px;
+}
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) { height:25% }
+h2 { font-size: 15px; }
+button {width: 100px;}  
+.bttn {
+    width: 50px;
+}
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) { height:20% }
-.card { height: 95%; font-size: 3px;}
+.card { height: 95%; font-size: 10px;}
 
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) { height:70% }
-.card { height: 95%; font-size: 10px;}
+.card { height: 95%; font-size: 15px;}
+.carousel-caption h2 { font-size: 25px;}
+h5 { font-size: 25px;}
+p { font-size: 15px;}
+
+@media screen and (min-width: 576px) {
+  .bttn {
+    position: absolute;
+    width: 200px;
+  }

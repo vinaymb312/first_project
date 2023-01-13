@@ -177,57 +177,76 @@
     <div class="vl"></div>
   </div>
 
+<!-- manu code -->
+<!-- <div style="background-color: #F4F5F8;" class="container-fluid mt-5 text-center ">
+
+<h4 style="padding: 20px; color:  #FF0566;"><center>Our Capabilities</center></h4>
+
+<div class="parent">
+<div style="background-color: white; border-radius: 50px; height: 110px; width: 1500px;" class="btn-group me-1" role ="group" aria-label="Basic outlined example">
+<button style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color:#9C02AE; margin-right: 10px; border-color:#9C02AE ;"  type="button" ><img style="float: left; margin-left: 10px" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
+
+<div style="padding-top: 21px;" class="btn-group me-1 " role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px; margin-right: 10px; " type="button" class="btn btn-outline-primary bttn text-center">concept</button>
+        </div>
+<div style="padding-top: 21px;" class="btn-group me-1 " role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 8%; margin-right: 10px;" type="button" class="btn btn-outline-primary bttn">Design & Engineering</button>
+        </div>
+<div style="padding-top: 21px;" class="btn-group me-1 " role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 8%; margin-right: 10px;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
+        </div>
+
+</div>
+</div> 
+</div> -->  
+
 
   
-<div style="background-color: #E8E8E8; height: 710px ; width: 1300px;" class="container mt-5 text-center">
+  
+<div style="background-color: #F4F5F8;" class="container-fluid mt-5 text-center ">
      <center><h4 style="padding: 20px; color:#FF0566">Our capabalities</h4></center>
     <div class="parent">
-      <div  >
-        <div class="btn-group me-1 " role="group" aria-label="Basic outlined example">
-          <button  style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: purple;" type="button" class="btn btn-primary"><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
+      
+        <div  style=" background-color: white; border-radius: 50px; height: 110px; width: 1500px;" class="btn-group me-1 " role="group" aria-label="Basic outlined example" >
+          <button  style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: purple; margin-right: 10px;" type="button" class="btn btn-primary"><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
+        
+      
+        <div style="padding-top: 18px;" class="btn-group me-1 " role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px; margin-right: 10px;" type="button" class="btn btn-outline-primary bttn">concept</button>
         </div>
-      <!-- </div>
-      <div class="col"> -->
-        <div class="btn-group me-1 " role="group" aria-label="Basic outlined example">
-          <button style="color: black; border-radius: 20px; height: 80px; width: 130px;" type="button" class="btn btn-outline-primary bttn">concept</button>
+     
+        <div style="padding-top: 18px;" class="btn-group me-1 " role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160%; margin-right: 10px;" type="button" class="btn btn-outline-primary bttn">Design  &  Engineering</button>
+        </div> 
+       
+        <div style="padding-top: 18px;" class="btn-group me-1 " role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 8%; margin-right: 10px;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
         </div>
-      <!-- </div>
-      <div class="col"> -->
-        <div class="btn-group me-1 " role="group" aria-label="Basic outlined example">
-          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Design & Engineering</button>
-        </div>
-        <!-- </div>
-        <div class="col"> -->
-        <div class="btn-group me-1 " role="group" aria-label="Basic outlined example">
-          <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
-        </div>
-      </div>
-    </div>
+        </div> 
+  </div>
   </div><br />
 
 
-<div class="container mt-5 text-center">
+<div  style="background-color: #F4F5F8;" class="container-fluid mt-5 text-center">
 <div class="parent">
-  <div class="btn-group me-1 " role="group" aria-label="Basic outlined example">
-    <button  style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: purple;" type="button" class="btn btn-primary"><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
+  <div  class="btn-group me-1 " role="group" aria-label="Basic outlined example">
+    <button  style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: purple; margin-right: 10px;" type="button" class="btn btn-primary"><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
   </div>
-      <!-- </div>
-        <div class="col"> -->
+  <div style="padding-top: 18px;" class="btn-group me-1 " role="group" aria-label="Basic outlined example">
+          <button style="color: black; border-radius: 20px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px; margin-right: 10px; margin-bottom: 15px;" type="button" class="btn btn-outline-primary bttn">concept</button>
+        </div>
   <div class="btn-group me-1 " role="group" aria-label="Basic outlined example">
-    <button style="color: black; border-radius: 20px; height: 80px; width: 130px;" type="button" class="btn btn-outline-primary bttn">concept</button>
-  </div>
-      <!-- </div>
-        <div class="col"> -->
+          <button style="color: black; border-radius: 20px; height: 80px; width: 8%; margin-right: 10px;" type="button" class="btn btn-outline-primary bttn">Design & Engineering</button>
+        </div>
   <div class="btn-group me-1 " role="group" aria-label="Basic outlined example">
-    <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Design & Engineering</button>
-  </div>
-        <!-- </div>
-          <div class="col"> -->
-  <div class="btn-group me-1 " role="group" aria-label="Basic outlined example">
-    <button style="color: black; border-radius: 20px; height: 80px; width: 8%;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
-  </div>
+          <button style="color: black; border-radius: 20px; height: 80px; width: 8%; margin-right: 10px;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
+        </div>
+        
 </div>
 </div>
+
+
+
 
   
   <!-- <style>

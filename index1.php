@@ -29,13 +29,16 @@
               <a style="font-size: 15px;" class="nav-link " aria-current="page" href="#">About us</a>
             </li>
             <li class="nav-item">
+              <a style="font-size: 15px;" class="nav-link " aria-current="page" href="#">Mechanical</a>
+            </li>
+            <li class="nav-item">
+              <a style="font-size: 15px;" class="nav-link " aria-current="page" href="#dmls">3D Pinting</a>
+            </li>
+            <li class="nav-item">
               <a style="font-size: 15px;" class="nav-link " aria-current="page"  href="#">Electronics</a>
             </li>
             <li class="nav-item">
-              <a style="font-size: 15px;" class="nav-link " aria-current="page" href="#">3D Pinting</a>
-            </li>
-            <li class="nav-item">
-              <a style="font-size: 15px;" class="nav-link " aria-current="page" href="#">Mechanical</a>
+              <a style="font-size: 15px;" class="nav-link " aria-current="page"  href="#pcb">PCB</a>
             </li>
             <li class="nav-item">
               <a style="font-size: 15px;" class="nav-link " aria-current="page" href="#">Contact</a>
@@ -168,7 +171,7 @@
     <center><h4 class="pink">All types of PCB's</h4></center>
   </div>
 
-  <div class="container mt-5">
+  <div id="pcb" class="container mt-5">
       <center><h1>PCB Fabrications</h1></center>
     
     <p style="text-align:center; width: 90%;" class="mt-5">
@@ -488,7 +491,11 @@
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
   </div>
+
+
   <a class="btn btn-dark large" href="#dmls" role="button">Link</a>
+
+  <center><h4 class="pink" id="dmls">3D Printing</h4></center>
 
   <div style="background-color: white; box-shadow: 4px 4px 4px lightgray;" class="container-fluid mt-5 card-body shadow p-3  rounded">
     <button href="" style="width: 16%; height: 70px; " type="button" class="btn btn-dark large">DMLS</button>
@@ -499,7 +506,7 @@
     <button style="width: 16%; height: 70px;" type="button" class="btn btn-light large">SLS</button><br />
 
     <div class="row">
-      <div style="font-size: 20px;" id="dmls" class="col col-md-8 col-sm-8 mt-5">
+      <div style="font-size: 20px;"  class="col col-md-8 col-sm-8 mt-5">
         <strong><p>Direct Metal laser sintering (DMLS)</p></strong><br />
         <h5 style="color: red;">Make</h5>
         <p>EOS – Industrial Grade DMLS 3D printer</p><br />

@@ -15,6 +15,10 @@ body{
     /*margin: 0 auto;*/
 }
 
+.navbarstrech {
+    width: 100%;
+}
+
 /*.navbarlogo {
     width: 20%;
 }
@@ -31,7 +35,7 @@ body{
     font-size: 18px;
 }*/
 .pink {
-    color: #FF0566;
+    color: #FF0566; 
 }
 .design {
     
@@ -50,9 +54,9 @@ body{
 }
 .design2 {
     background-image: url('public/images/market.png');
-    /*background-size: auto;*/
+    background-size: auto;
     background-repeat: no-repeat;
-    height: 510%;
+    height: 1110%;
     background-size:  100% 100%;
 
 }
@@ -106,7 +110,9 @@ div.parent {
   flex-wrap: wrap;
   justify-content: center;
 }
-
+.capability {
+    background-color:   #E8E8E8;
+}
 
 
 

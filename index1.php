@@ -15,7 +15,7 @@
     <nav style="background-color: #FFFFFF !important; opacity:80%" class="navbar sticky-top navbar-expand-lg bg-light">
       <div class="container-fluid">
         <nav style="background-color: transparent;" class="navbar bg-light">
-          <div style="background-color: transparent;" class="container">
+          <div style="background-color: transparent;" class="container-fluid">
             <img src="public/images/logo.png" alt="navmage" >
           </div>
         </nav>
@@ -168,10 +168,10 @@
   </div>
 
   <div class="container mt-5">
-    <center><h4 class="pink">All types of PCB's</h4></center>
+    <center><h4 id="pcb" class="pink">All types of PCB's</h4></center>
   </div>
 
-  <div id="pcb" class="container mt-5">
+  <div  class="container mt-5">
       <center><h1>PCB Fabrications</h1></center>
     
     <p style="text-align:center; width: 90%;" class="mt-5">
@@ -472,7 +472,7 @@
         <p style="font-size: 20px; color: white">Global design and manufacturing servive provider</p>
         <small style="color: white; font-size: 15px;">to be small , medium and large segments and cater the global customer with top notch quality</small>
       </div>
-      <div class="col col-lg-8 text-center mt-5">
+      <div  class="col col-lg-8 text-center mt-5">
         <button  type="button" style= "width:250px;" class="btn btn-danger">Arrange a potential analysis now </button><br />
         <center><small style="color: white;">100% free and non billing</small></center>
       </div>
@@ -493,7 +493,7 @@
   </div>
 
 
-  <a class="btn btn-dark large" href="#dmls" role="button">Link</a>
+  <!-- <a class="btn btn-dark large" href="#dmls" role="button">Link</a> -->
 
   <center><h4 class="pink" id="dmls">3D Printing</h4></center>
 
@@ -502,8 +502,8 @@
     <button style="width: 16%; height: 70px;" type="button" class="btn btn-light large">FDM</button>
     <button style="width: 16%; height: 70px;" type="button" class="btn btn-light large">MJF</button>
     <button style="width: 16%; height: 70px;" type="button" class="btn btn-light large">POLYJET</button>
-    <button style="width: 16%; height: 70px;" type="button" class="btn btn-light large">SLA</button>
-    <button style="width: 16%; height: 70px;" type="button" class="btn btn-light large">SLS</button><br />
+    <button style="width: 17%; height: 70px;" type="button" class="btn btn-light large">SLA</button>
+    <button style="width: 17%; height: 70px;" type="button" class="btn btn-light large">SLS</button><br />
 
     <div class="row">
       <div style="font-size: 20px;"  class="col col-md-8 col-sm-8 mt-5">
@@ -527,7 +527,7 @@
   </div>
 <script>
 function myFunction() {
-  document.getElementById("demo").innerHTML = "<p style='font-size:17px;'>Yes, we will suggest the best material / process to meet your project requirements</p>";
+  document.getElementById("demo").innerHTML = "<br/><p style='font-size:17px;'>Yes, we will suggest the best material / process to meet your project requirements</p>";
 }
 </script>
 
@@ -539,7 +539,7 @@ function myFunction() {
   </div>
   <div class="container text-center mt-5">
     <div class="row">
-      <div class="col">
+      <div class="parent">
         <div class="card-body shadow p-3  rounded ">
           <div class="card-body">
             <h5 style="font-size: 18px;" class="card-title">Q1: We have already tried a lot. Does your method really work? <img onclick="myFunction()" style="float: right" src="public/images/plus.png" alt="image"></h5>
@@ -559,7 +559,7 @@ function myFunction() {
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="parent">
         <div  class="card-body shadow p-3  rounded">
 
           <div class="card-body">
@@ -569,7 +569,7 @@ function myFunction() {
           </div>
         </div>
         <div style="margin-top:2%" class="card-body shadow p-3  rounded">
-
+          <div class="parent">
           <div class="card-body">
             <h5 style="font-size: 18px;" class="card-title">Q4: We have already tried a lot. Does your method really work? <img style="float: right" src="public/images/plus.png" alt="image"></h5>
           <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>

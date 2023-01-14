@@ -208,7 +208,7 @@
     <div class="parent">
       
         <div  style=" background-color: white; border-radius: 50px; height: 110px; width: 1500px;" class="btn-group me-1 " role="group" aria-label="Basic outlined example" >
-          <button  style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: purple; margin-right: 10px;" type="button" class="btn btn-primary"><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
+          <button  style="height: 110px ; width: 14%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: purple; margin-right: 10px;" type="button" ><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
         
       
         <div style="padding-top: 18px;" class="btn-group me-1 " role="group" aria-label="Basic outlined example">

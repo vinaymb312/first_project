@@ -108,6 +108,12 @@ div.parent {
 }
 
 
+
+
+.mr-1 {
+  margin-right: ($spacer * .25) !important;
+}
+
 /* end*/
 
 /*font control media*/
@@ -198,3 +204,15 @@ button {width: 100px;}
     position: absolute;
     width: 200px;
   }*/
+
+/*@media only screen and (max-width: 600px){
+
+
+.row{
+
+    flex-direction: column;
+}
+
+}  */
+
+

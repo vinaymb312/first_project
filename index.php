@@ -203,12 +203,179 @@
 
   
   
-<div style="background-color: #F4F5F8;" class="container-fluid mt-5 text-center ">
-     <center><h4 style="padding: 20px; color:#FF0566">Our capabalities</h4></center>
-    <div class="parent">
+<!-- <div style="background-color: pink;" class="container mt-5 text-center "> -->
+     <!-- <center><h4 style="padding: 20px; color:#FF0566">Our capabalities</h4></center>
+    <div class="row">
+      <div class="col-sm-2">
+
+        <div style="color: black; border-radius: 20px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px; margin-right: 10px;"class="card">
+          <div class="card-body">
+            one
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+
+        <div style="color: black; border-radius: 20px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px; margin-right: 10px;"class="card">
+          <div class="card-body">
+            two
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+
+        <div style="color: black; border-radius: 20px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px; margin-right: 10px;"class="card">
+          <div class="card-body">
+            three
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+
+        <div style="color: black; border-radius: 20px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px; margin-right: 10px;"class="card">
+          <div class="card-body">
+            four
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+
+        <div style="color: black; border-radius: 20px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px; margin-right: 10px;"class="card">
+          <div class="card-body">
+            five
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+
+        <div style="color: black; border-radius: 20px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px; margin-right: 10px;"class="card">
+          <div class="card-body">
+            six
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ -->
+
+ <br/>
+
+
+ <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<div class="container">
+  <div class="card">
+  <div style="background-color: pink;" class="row g-0">
+    <div class="col-md-2">
+      <div class="card-body">
+        <h5 style="background-color: white;"class="card-title">engineering image</h5>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="card-body">
+        <h5 style="background-color: white;"class="card-title">Card title</h5>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="card-body">
+        <h5 style="background-color: white;"class="card-title">Card title</h5>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="card-body">
+        <h5 style="background-color: white;"class="card-title">Card title</h5>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="card-body">
+        <h5 style="background-color: white;"class="card-title">Card title</h5>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="card-body">
+        <h5 style="background-color: white;"class="card-title">Card title</h5>
+      </div>
+    </div>
+  </div>
+</div>
+</div>  
+
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/>
+<center><p>This is para</p></center>
+
+<!-- <div style="background-color: pink;" class="container mt-5 text-center ">
+    <div class="row g-0">
+      <div class="col-sm-2">
+       <div style="border-radius: 20px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px;" class="card">
+        <div class="card-title">Card title</div>
+        </div>
+      </div>
       
-        <div  style=" background-color: white; border-radius: 50px; height: 110px; width: 1500px;" class="btn-group me-1 " role="group" aria-label="Basic outlined example" >
-          <button  style="height: 110px ; width: 14%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: purple; margin-right: 10px;" type="button" ><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
+    <div class="col-sm-2">
+      <div class="card mb-3" style="max-width: 540px;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+
+    <div class="col-sm-2">
+      <div class="card mb-3" style="max-width: 540px;">
+        
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="card mb-3" style="max-width: 540px;">
+        
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="card mb-3" style="max-width: 540px;">
+        
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+    </div>
+</div>
+</div> -->
+        
+        <!-- <div style="color: black; border-radius: 20px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px; margin-right: 10px;"class="card">
+          <div class="card-body">
+            This is some text within a card body.
+          </div>
+        </div>
+        
+        <div style="color: black; border-radius: 20px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px; margin-right: 10px;"class="card">
+          <div class="card-body">
+            This is some text within a card body.
+          </div>
+        </div>
+        
+        <div style="color: black; border-radius: 20px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px; margin-right: 10px;"class="card">
+          <div class="card-body">
+            This is some text within a card body.
+          </div>
+        </div>
         
       
         <div style="padding-top: 18px;" class="btn-group me-1 " role="group" aria-label="Basic outlined example">
@@ -224,10 +391,10 @@
         </div>
         </div> 
   </div>
-  </div><br />
+  </div><br /> -->
 
 
-<div  style="background-color: #F4F5F8;" class="container-fluid mt-5 text-center">
+<<!-- div  style="background-color: #F4F5F8;" class="container-fluid mt-5 text-center">
 <div class="parent">
   <div  class="btn-group me-1 " role="group" aria-label="Basic outlined example">
     <button  style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: purple; margin-right: 10px;" type="button" class="btn btn-primary"><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
@@ -244,7 +411,7 @@
         
 </div>
 </div>
-
+ -->
 
 
 

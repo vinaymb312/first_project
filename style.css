@@ -16,12 +16,26 @@ body{
     /*justify-content: center;*/
     /*align-items: right;*/
     /*margin: 0 auto;*/
+    bottom: 8rem;
 }
 
 .navbarstrech {
     width: 100%;
 }
-
+.asdclass {
+position:fixed;
+top: 30%;
+left: 30%;
+    background-color: #F5F5F5;
+    /*justify-content: center;*/
+    font-size: 15px;
+    width: 600px;
+}
+.update {
+    float: left;
+    justify-content: center;
+    
+}
 /*.navbarlogo {
     width: 20%;
 }
@@ -43,11 +57,13 @@ body{
 .design {
     
     background-image: url('public/images/design.png');
+    /*background-image: url('public/images/GroupLines1.png');*/
     background-size: auto;
     background-repeat: no-repeat;
     height: 1200px;
 
-    background-size: 100% 100%;
+    background-size:105% 100%;
+
 
 }
 #bgimagedesign {
@@ -56,6 +72,7 @@ body{
     /*background-size: auto;*/
 }
 .design2 {
+    margin-top: 20px;   
     background-image: url('public/images/market.png');
     background-size: auto;
     background-repeat: no-repeat;
@@ -114,6 +131,7 @@ div.parent {
   justify-content: center;
 }
 .capability {
+    margin-top: 15px;
     background-color:   #E8E8E8;
 }
 

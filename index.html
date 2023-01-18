@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" /> 
-    <title>Bootstrap demo</title>
+    <title>Gennuine</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="style.css">  
@@ -16,58 +17,93 @@
 </head>
 <body>
   
-    <nav style="background-color: #FFFFFF !important; opacity:80%" class="navbar sticky-top navbar-expand-lg bg-light">
-      <div class="container-fluid ">
-        <nav  class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <img src="public/images/logo.png" alt="navmage" >
-          </div>
-        </nav>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarSupportedContent">
+   <nav style="background-color: #FFFFFF !important; opacity:80%" class="navbar sticky-top navbar-expand-lg bg-light">
+        <div class="container-fluid ">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <img src="public/images/logo.png" alt="navmage">
+                </div>
+            </nav>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarSupportedContent">
 
-          <ul class="navbar-nav d-flex navbar-nav ms-auto flex-nowrap">
-            <li class="nav-item ">
-              <a style="font-size: 15px;" class="nav-link " aria-current="page" href="#">About us</a>
-            </li>
-            <li class="nav-item">
-              <a style="font-size: 15px;" class="nav-link " aria-current="page" href="#">Mechanical</a>
-            </li>
-            <li class="nav-item">
-              <a style="font-size: 15px;" class="nav-link " aria-current="page" href="#dmls">3D Pinting</a>
-            </li>
-            <li class="nav-item">
-              <a style="font-size: 15px;" class="nav-link " aria-current="page"  href="#">Electronics</a>
-            </li>
-            <li class="nav-item">
-              <a style="font-size: 15px;" class="nav-link " aria-current="page"  href="#pcb">PCB</a>
-            </li>
-            <li class="nav-item">
-              <a style="font-size: 15px;" class="nav-link " aria-current="page" href="#">Contact</a>
-            </li>
-          </ul>
+                <ul class="navbar-nav d-flex navbar-nav ms-auto flex-nowrap">
+                    <li class="nav-item ">
+                        <a style="font-size: 15px;" class="nav-link " aria-current="page" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-size: 15px;" class="nav-link " aria-current="page" href="#">Mechanical</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-size: 15px;" class="nav-link " aria-current="page" href="#dmls">3D Pinting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-size: 15px;" class="nav-link " aria-current="page" href="#">Electronics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-size: 15px;" class="nav-link " aria-current="page" href="#pcb">PCB</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-size: 15px;" class="nav-link " aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
 
+            </div>
         </div>
-      </div>
     </nav>
 
   
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="public/images/bg.png" width="40%" height="600px;" class="d-block w-100" alt="backgroundimage">
+   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="public/images/bg.png" width="40%" height="600px;" class="d-block w-100" alt="backgroundimage">
 
-          <div class="carousel-caption">
-            <h2>We bring concept into product and make concepts manufacturing ready in the shortest timespan</h2>
-            <p >We are design firm with an internationl presence. At Gennuine Global we manage ideas and <br/>
+                <div class="carousel-caption">
+                    <h2>We bring concept into product and make concepts manufacturing ready in the shortest timespan</h2>
+            <p style="line-height: 25px;">We are design firm with an internationl presence. At Gennuine Global we manage ideas and <br/>
             bring life to them with high-Quality Engineering talent and substantial cost advantage</p>
-            <button style="margin: 1em 0; width: 300px;  background-color: #FF0566;" type="button" class="btn btn-danger hoverred">Book a Demo<br/>free and without obligation</button>
-          </div>
+            <button style="margin: 1em 0; width: 250px;  background-color: #FF0566;" type="button" onclick="asd(1)" id="insert" class="btn btn-danger hoverred">Book a Demo<br/>free and without obligation</button>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
+
+<div class="container asdclass">
+<form class="" id="asd" action="">
+  <button style="margin: 30px;"type="button" onclick="asd(0)" id="update" value="HideForm"><img style="border: 1px solid #F5F5F5;" src="public/images/logoreal.png"></button>
+  <button style="margin-left: 300px;" type="button" onclick="asd(0)" id="update" value="HideForm"><img src="public/images/closereal.png" height="40px;" width="40px;"></button><br />
+  <label for="fname">First name:</label> <label style="margin-left: 200px;" for="lname">Last name:</label><br />
+  <input type="text" id="fname" name="fname"><input style="margin-left: 105px;"type="text" id="lname" name="lname"><br><br>
+  <label for="lname">*Email</label> <label style="margin-left: 225px;" for="lname">Phone</label><br />
+  <input type="email" name="email" placeholder="Maild-id" required> <input style="margin-left: 105px;" type="email" name="number" placeholder="Number"><br /><br />
+  <label for="notes">Notes</label><br />
+  <textarea cols="56" rows="6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </textarea><br /><br />
+  <input style="margin-left: 450px;"type="submit" value="Submit">
+
+</form>
+</div>
+
+<script>
+
+  window.onload = function() {
+
+    document.getElementById("asd").style.display = "none";
+
+  };
+
+  function asd(a) {
+  
+    if (a == 1) {
+      document.getElementById("asd").style.display = "block";
+    } else {
+      document.getElementById("asd").style.display = "none";
+    }
+      
+  }
+</script>
+
 
   <div class="container-fluid mt-5">
     <center><h4 class="pink">Turning your goals into actions</h4></center>
@@ -77,15 +113,15 @@
     <center><h1>Design house & a solutions advisors</h1></center>
   </div>
 
-  <div style="padding: 3%;" class="container-fluid mt-5">
-    <div class="row row-cols-1 row-cols-md-3">
+  <div style="padding: 8%;" class="container-fluid mt-2">
+    <div class="row row-cols-1 row-cols-md-3 g-5">
       <div class="col">
         <div class="card mt-5 h-100">
 
-          <div class="card-body shadow p-3  rounded ">
+          <div class="card-body shadow  rounded ">
             <img src="public/images/card1.png">
-            <h5 class="card-title mt-5 ">Product Development</h5>
-            <p class="card-text mt-4">Immense experience in taking a simple idea to a product with agile methodologies</p>
+            <h5 style="padding: 3%;" class="card-title mt-5 ">Product Development</h5>
+            <p style="padding: 3%;" class="card-text mt-4">Immense experience in taking a simple idea to a product with agile methodologies</p>
           </div>
         </div>
       </div>
@@ -94,8 +130,8 @@
 
           <div class="card-body shadow p-3   rounded ">
             <img src="public/images/card2.png">
-            <h5 class="card-title mt-5">Product Re-engineering</h5>
-            <p class="card-text mt-4">Extended support for existing products and updating them to todays technology</p>
+            <h5 style="padding: 3%;" class="card-title mt-5">Product Re-engineering</h5>
+            <p style="padding: 3%;" class="card-text mt-4">Extended support for existing products and updating them to todays technology</p>
           </div>
         </div>
       </div>
@@ -104,8 +140,8 @@
 
           <div class="card-body shadow p-3  rounded ">
             <img src="public/images/card3.png">
-            <h5 class="card-title mt-5">Product Manufacturing</h5>
-            <p class="card-text mt-4">World class state of the manufacturing facility with globally acceptable manufacturing techniques for product consistency</p>
+            <h5 style="padding: 3%;" class="card-title mt-5">Product Manufacturing</h5>
+            <p style="padding: 3%;" class="card-text mt-4">World class state of the manufacturing facility with globally acceptable manufacturing techniques for product consistency</p>
           </div>
         </div>
       </div>
@@ -117,12 +153,12 @@
     <div class="container-fluid">
       <center><h1 style="color: white;">Design-For-Excellence</h1></center>
     </div>
-    <div style="padding: 2%;" class="container mt-5">
-      <div   class="row row-cols-1 row-cols-md-3 mt-5">
+    <div class="container mt-5">
+      <div   class="row row-cols-md-3  mt-5">
         <div  class="col">
-          <div class="card h-100">
+          <div style="width: 25rem; " class="card h-100">
             <div class="card-body">
-              <h5  class="card-title mt-4">Strong Engineering Team  <span style="font-size:35px; color:#E8E8E8; margin-left: 5%;">01</span></h5>
+              <h5  class="card-title ">Strong Engineering Team  <span style="font-size:35px; color:#E8E8E8; margin-left: 8%;">01</span></h5>
               <p style="font-size: 15px;"class="card-text mt-4">Engineers with diverse knowledge and equipped with decades of experience in multiple domains makes from simple design to a complex system in big equipment's</p>
             </div>
           </div>
@@ -130,17 +166,17 @@
         <div class="col">
         </div>
         <div  class="col">
-          <div class="card h-100">
+          <div style="width: 25rem; " class="card h-100">
             <div class="card-body">
-              <h5 class="card-title mt-4">DFM Support <span style="font-size:35px; color:#E8E8E8; margin-left: 40%;">02</span></h5>
-              <p style="font-size: 15px;" class="card-text mt-4">In today's fast-moving world even the best of best designs is cannot be scaled up in production due to design constraints. Our team well-prepared for such challenges with waste years of experience in the industry. Any given design can be made manufacturable / testable and easy to assemble when it comes to mass producing. </p>
+              <h5 class="card-title">DFM Support <span style="font-size:35px; color:#E8E8E8; margin-left: 40%;">02</span></h5>
+              <p style="font-size: 14px;" class="card-text mt-4">In today's fast-moving world even the best of best designs is cannot be scaled up in production due to design constraints. Our team well-prepared for such challenges with waste years of experience in the industry. Any given design can be made manufacturable / testable and easy to assemble when it comes to mass producing. </p>
             </div>
           </div>
         </div>
-      </div><br /><br />
-      <div class="row row-cols-1 row-cols-md-3">
+      </div><br /><br /><br />
+      <div class="row row-cols-md-3 ">
         <div  class="col">
-          <div class="card mt-3 h-100">
+          <div style="width: 25rem; "class="card h-100">
 
             <div class="card-body">
 
@@ -152,7 +188,7 @@
         <div class="col">
         </div>
         <div class="col">
-          <div class="card mt-3 h-100">
+          <div style="width: 25rem; " class="card mt-3 h-100">
 
             <div class="card-body">
 
@@ -163,7 +199,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div><br />
 
   <div class="container mt-1">
     <div class="vl"></div>
@@ -176,7 +212,7 @@
   <div  class="container mt-5">
       <center><h1>PCB Fabrications</h1></center>
     
-    <p style="text-align:center; width: 90%;" class="mt-5">
+    <p style="text-align:center; width: 100%; font-size: 18px;" class="mt-5">
       We do support active and passive components where you find shortage in production and we will do complete kitting's based on customer request. We buy components from direct seller and manufacturers. In addition to that we will support electro mechanical components such as connectors, magnets and windings
     </p>
   </div>
@@ -184,101 +220,31 @@
   <div class="container mt-4">
     <div class="vl"></div>
   </div><br />
-
-  <!-- <div style="background-color: #E8E8E8; height: 780px ; width: 1350px;" class="container mt-5">
-    <center><h4 style="padding: 20px;">Our capabalities</h4></center>
-    <div class="row row-cols-auto">
-      <div  class="col">
-        <div style=" background-color: white; border-radius: 50px; height: 110px; width: 1200px;" class="mt-5">
-          <button class="capbutton" style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-top-left-radius: 50px;border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: #9C02AE" type="button" class="btn btn-primary "><img style="float: left;" src="public/images/purple.png"><span>Engineering <br />Services</span></button>
-
-          <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
-            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Concept </button>
-          </div>
-          <div class="btn-group me-1" role="group" aria-label="First group">
-            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Design<br />&<br /> Engineering</button>
-          </div>
-          <div class="btn-group me-1" role="group" aria-label="First group">
-            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
-          </div>
-        </div>
-
-        <div style=" background-color: white; border-radius: 50px; height: 110px; width: 1200px;" class="mt-5">
-          <button class="capbutton" style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px;  background-color: #7031C2" type="button" class="btn btn-primary "><img style="float: left;" src="public/images/darkblue.png"><span>Manufacturing <br />Services</span></button>
-          <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
-            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Design <br />&<br /> Engineering</button>
-          </div>
-          <div class="btn-group me-1" role="group" aria-label="First group">
-            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
-          </div>
-          <div class="btn-group me-1" role="group" aria-label="First group">
-            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Pilot Production</button>
-          </div>
-          <div class="btn-group me-1" role="group" aria-label="First group">
-            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Mass Production</button>
-          </div>
-          <div class="btn-group me-1" role="group" aria-label="First group">
-            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 160px;" type="button" class="btn btn-outline-primary bttn">Product <br />Life Cycle<br /> Management</button>
-          </div>
-        </div>
-
-        <div style=" background-color: white; border-radius: 50px; height: 110px; width: 1200px;" class="mt-5">
-          <button class="capbutton" style="height: 110px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: #F8005D" type="button" class="btn btn-primary "><img style="float: left;" src="public/images/pink.png"><span>Build to <br />Specification</span></button>
-          <div class="btn-group me-1" role="group" aria-label="Basic outlined example">
-            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">concept</button>
-          </div>
-          <div class="btn-group me-1" role="group" aria-label="First group">
-            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">Design <br />&<br /> Engineering</button>
-          </div>
-          <div class="btn-group me-1" role="group" aria-label="First group">
-            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">Prototype & NPI</button>
-          </div>
-          <div class="btn-group me-1" role="group" aria-label="First group">
-            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">Pilot Production</button>
-          </div>
-          <div class="btn-group me-1" role="group" aria-label="First group">
-            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">Mass Production</button>
-          </div>
-          <div class="btn-group me-1" role="group" aria-label="First group">
-            <button class="capbutton" style="color: black; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; height: 80px; width: 145px;" type="button" class="btn btn-outline-primary bttn">Product <br />Life Cycle<br /> Management</button>
-          </div>
-        </div>
-
-        <div style=" background-color: white; border-radius: 50px;  height: 100px; width: 1200px;" class="mt-5">
-          <button class="capbutton" style="height: 100px ; width: 18%; border-top-left-radius: 50px; border-top-right-radius: 0px; border-bottom-left-radius: 50px; border-bottom-right-radius: 0px; background-color: #0E95E3;" type="button" class="btn btn-primary"><img style="float: left;" src="public/images/skyblue.png" alt="img" height="50px;" width="50px;"><span>After Sales <br />Support</span></button><p style="float: right; padding: 35px;">Tailored after market support to constantly maximize manufacturing value, including in-depth warranty, product information <br/>
-          management, logistics repair and rework services.</p>
-        </div>
-        <div class="container mt-5">
-          <center><button style="width: 300px;"  type="button" class="btn btn-danger">Get Potential analysis<br/>free</button></center>
-        </div>
-      </div>
-    </div>
-  </div> -->
   
 
-<div style="background-color:   #F5F5F5;" class="container capability">
+<div style="background-color: #F5F5F5; margin-left: 40px; " class="container-fluid capability">
   <center><h4 style="padding: 20px;" class="pink">Our capabalities</h4></center>
-<div class="container ">
-  <div style="border-left-radius: 50%; border: none;  border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;" class="card">
+<div class="container-fluid ">
+  <div style="border-left-radius: 50%; border: none;  border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;" class="card mt-5">
   <div class="row">
-    <div class="col-md-2 col-sm-2 ">
-      <div style="background-color: #9C02AE; height: 110px; border-top-left-radius: 50px; border-bottom-left-radius: 50px;" class="card-body text-center px-4 gx-4">
+    <div class="col-md-2 ">
+      <div style="background-color: #9C02AE; height: 110px; width: 90%; border-top-left-radius: 50px; border-bottom-left-radius: 50px;" class="card-body text-center px-4 gx-4">
         <img style="float: left;padding-top: 3.5%;" src="public/images/purple.png"><span style="background-color: #9C02AE;  color: white; border-top-left-radius: 50px;">Engineering <br />Services</span>
       </div>
     </div>
-    <div  class="col-md-2 col-sm-2">
+    <div  class="col-md-1">
       <div class="card-body text-center">
-        <p style="margin: 12px; background-color: white; border-radius: 20px; border-top-left-radius: 50px; padding: 10px;" class="card-title text-center">concept</p>
+        <p style="background-color: white; border-radius: 35px; padding: 18px; border:1px solid #DCDCDC;" class="card-title text-center">concept</p>
       </div>
     </div>
-    <div  class="col-md-2 col-sm-2">
+    <div  class="col-md-1 ">
       <div  class="card-body text-center ">
-        <p style= "padding:0;" class="card-title text-center">design <br/>&<br /> Engineering</p>
+        <p style="background-color: white; border-radius: 25px;  padding: 3px; border:1px solid #DCDCDC; font-size: 14px;" class="card-title text-center">Design <br />& Engineering</p>
       </div>
     </div>
-    <div  class="col-md-2 col-sm-2">
+    <div  class="col-md-1 ">
       <div  class="card-body text-center">
-        <p  style= "padding:0;"class="card-title text-center">Prototype <br/> &<br /> NPI</p>
+        <p  style="background-color: white; border-radius: 25px;  padding: 3px; border:1px solid #DCDCDC; " class="card-title text-center">Prototype <br/> &<br /> NPI</p>
       </div>
     </div>
   </div>
@@ -287,72 +253,73 @@
  <div style="border-left-radius: 50%; border: none;  border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;" class="card mt-5">
   <div class="row">
     <div class="col-md-2">
-      <div style="background-color: #7031C2; height: 110px; width: 100%; border-top-left-radius: 50px; border-bottom-left-radius: 50px;" class="card-body text-center">
+      <div style="background-color: #7031C2; height: 110px; width: 90%;; border-top-left-radius: 50px; border-bottom-left-radius: 50px;" class="card-body text-center">
         <img style="float: left; padding-top: 3.5%;" src="public/images/darkblue.png"><span style=" background-color: #7031C2; color: white; border-top-left-radius: 50px; ">Manufacturing <br />Services</span>
       </div>
     </div>
-    <div  class="col-md-2 ">
+    <div  class="col-md-1 padding-0">
       <div class="card-body text-center">
-        <p style="background-color: white;"class="card-title text-center">Design <br /> &<br /> Engineering</p>
+        <p style="background-color: white; border-radius: 25px;  padding: 3px; border:1px solid #DCDCDC; font-size: 14px" class="card-title text-center">Design <br /> &<br /> Engineering</p>
       </div>
     </div>
-    <div  class="col-md-2">
+    <div  class="col-md-1">
       <div  class="card-body text-center">
-        <p style="background-color: white;"class="card-title text-center">Prototype<br /> &<br /> NPI</p>
+        <p style="background-color: white; border-radius: 25px;  padding: 3px; border:1px solid #DCDCDC; " class="card-title text-center">Prototype<br /> &<br /> NPI</p>
       </div>
     </div>
-    <div  class="col-md-2">
+    <div  class="col-md-1">
       <div  class="card-body text-center">
-        <p style="background-color: white;"class="card-title">Pilot Production</p>
+        <p style="background-color: white; border-radius: 25px;  padding: 3px; border:1px solid #DCDCDC; " class="card-title">Pilot Production</p>
       </div>
     </div>
-    <div  class="col-md-2">
+    <div  class="col-md-1">
       <div class="card-body text-center">
-        <p style="background-color: white;"class="card-title">Mass Production</p>
+        <p style="background-color: white; border-radius: 25px;  padding: 3px; border:1px solid #DCDCDC; " class="card-title">Mass Production</p>
       </div>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-1">
       <div   class="card-body text-center">
-        <p style="background-color: white;"class="card-title">Product Life Cycle Management</p>
+        <p style="background-color: white; border-radius: 25px;  border:1px solid #DCDCDC;font-size: 13px; " class="card-title">Product <br />Life Cycle Management</p>
       </div>
     </div>
   </div>
 </div>
  <div style="border-left-radius: 50%;  border: none; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;" class="card mt-5">
   <div class="row">
-    <div class="col-md-2">
-      <div style="background-color: #F8005D; height: 110px; width: 100%; border-top-left-radius: 50px; border-bottom-left-radius: 50px;" class="card-body text-center">
+    <div class="col-md-2 padding-0">
+      <div style="background-color: #F8005D; height: 110px; width: 90%; border-top-left-radius: 50px; border-bottom-left-radius: 50px;" class="card-body text-center">
         <img style="float: left;" src="public/images/pink.png"><span style="background-color:  #F8005D; color: white; border-top-left-radius: 50px;">Build to  <br />Specifications</span>
       </div>
     </div>
-    <div style="max-width: 165px; padding: 20px;" class="col-md-2">
+    <div  class="col-md-1 padding-0">
       <div class="card-body text-center">
-        <p style="background-color: white;"class="card-title ">Concept</p>
+        <p style="background-color: white; border-radius: 25px;  padding: 18px; border:1px solid #DCDCDC; " class="card-text text-center">concept</p>
       </div>
     </div>
-    <div  style="max-width: 185px;"class="col-md-2">
+    <div class="col-md-1">
       <div  class="card-body text-center">
-        <p style="background-color: white;"class="card-title">Design <br />&<br/> Engineering</p>
+        <p style="background-color: white; border-radius: 25px;  padding: 3px; border:1px solid #DCDCDC; font-size: 14px;" class="card-text">Design <br />&<br/> Engineering</p>
+        <!-- <p style="background-color: white;"class="card-title">Design <br />&<br/> Engineering</p> -->
       </div>
     </div>
-    <div style="max-width: 185px;" class="col-md-2">
+    <div  class="col-md-1">
       <div  class="card-body text-center">
-        <p style="background-color: white;"class="card-title">Prototype <br/> & <br /> NPI</p>
+        <p style="background-color: white; border-radius: 25px;  padding: 3px; border:1px solid #DCDCDC; " class="card-text">Prototype <br/> & <br /> NPI</p>
       </div>
     </div>
-    <div style="max-width: 185px;" class="col-md-2">
+    <div class="col-md-1">
       <div  class="card-body text-center">
-        <p style="background-color: white;"class="card-title">Pilot  Production</p>
+        <p style="background-color: white; border-radius: 25px;  padding: 3px; border:1px solid #DCDCDC; " class="card-text">Pilot  <br /> Production</p>
       </div>
     </div>
-    <div style="max-width: 185px;" class="col-md-2">
+    <div  class="col-md-1">
       <div  class="card-body text-center">
-        <p style="background-color: white;"class="card-title">Mass Production</p>
+        <p style="background-color: white; border-radius: 25px;  padding: 3px; border:1px solid #DCDCDC; "class="card-text">Mass <br />  Production</p>
       </div>
     </div>
-    <div style="max-width: 160px;" class="col-md-2">
+    <div  class="col-md-1">
       <div class="card-body text-center">
-        <p style="background-color: white;"class="card-title">Product Life Cycle Management</p>
+        <p style="background-color: white; border-radius: 25px;  padding: 3px; border:1px solid #DCDCDC; font-size: 14px;"class="card-text">Product <br /> Life Cycle <br /> Management</p>
       </div>
     </div>
   </div>
@@ -360,7 +327,7 @@
 <div style="border-left-radius: 50%; border: none;  border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px;" class="card mt-5">
   <div class="row">
     <div class="col-md-2">
-      <div style="background-color: #0E95E3; height: 100px; width: 105%; border-top-left-radius: 50px; border-bottom-left-radius: 50px;" class="card-body text-center">
+      <div style="background-color: #0E95E3; height: 100px; width: 90%; border-top-left-radius: 50px; border-bottom-left-radius: 50px;" class="card-body text-center">
         <img style="float: left;" src="public/images/skyblue.png"><span style="background-color: #0E95E3; color: white;">After Sales<br />Support</span>
       </div>
     </div>
@@ -371,22 +338,23 @@
     </div>
 </div>
 </div>
-
+<br /><br />
 <div class="container mt-5">
-          <center><button style="width: 300px; "  type="button" class="btn btn-danger">Get Potential analysis<br/>free</button></center>
+          <center><button style="width: 300px; "  type="button" class="btn btn-danger" onclick="asd(1)">Get Potential analysis<br/>free</button></center>
         </div>
   </div><br />  
 </div>
- 
+
+
 
   <!--  -->
 
-  <div class="container-fluid mt-5 design2" >
+  <div style="padding: 4%;" class="container-fluid mt-5 design2" >
     <center><h1 style="color: white; padding: 20px;">Market Segments</h1></center>
     <div class="container-fluid mt-5">
-      <div class="row row-cols-1 row-cols-md-4 row-cols-sm-4">
+      <div style="margin-top: 20px;"class="row row-cols-1 row-cols-md-4 row-cols-sm-4 w-70">
         <div class="col">
-          <div  class="card h-90">
+          <div  style="width: 350px;" class="card h-100 ">
 
             <div class="card-body">
               <h5 class="card-title">Industrial</h5>
@@ -396,7 +364,7 @@
           </div>
         </div>
         <div class="col">
-          <div  class="card h-90">
+          <div style="width: 350px;" class="card h-100">
 
             <div class="card-body">
               <h5 class="card-title">Consumer</h5>
@@ -406,7 +374,7 @@
           </div>
         </div>
         <div class="col">
-          <div  class="card h-90">
+          <div style="width: 350px;" class="card h-100">
 
             <div class="card-body">
               <h5 class="card-title">Medical</h5>
@@ -416,7 +384,7 @@
           </div>
         </div>
         <div class="col">
-          <div  class="card h-90">
+          <div  style="width: 350px;" class="card h-100">
 
             <div class="card-body">
               <h5 class="card-title">Automotive</h5>
@@ -546,10 +514,10 @@
   </div>
 
   <div class="container-fluid mt-5">
-    <center><h4 class="pink">System Interation</h4></center>
+    <center><h4 class="pink">System Integration</h4></center>
   </div>
 
-  <div class="container-fluid mt-5">
+  <div style="background-color: #F5F5F5;" class="container-fluid mt-5">
     <div class="row row-cols-1 row-cols-md-2 row-cols-sm-2  mt-5">
       <div class="col text-center mt-4 ">
 
@@ -569,7 +537,7 @@
             </p> -->
         <!-- </div> -->
       </div>
-      <div style="line-height: 30px; font-size: 15px;"class="col mt-5">
+      <div style="line-height: 50px; font-size: 15px;"class="col mt-5">
           <img src="public/images/correct.svg" alt="image" /><span style="margin: 30px;">High-tech facility for Box-Build / Product Integration</span><br />
           <img src="public/images/correct.svg" alt="image" /><span style="margin: 30px;">Domain expertise in value engineering and localization for cost optimization</span><br />
           <img src="public/images/correct.svg" alt="image" /><span style="margin: 30px;">Strong vendor base development & vendor quality management programs</span><br />
@@ -608,7 +576,7 @@
     <div class="row">
       <div class="col col-lg-6 text-left mt-5">
         <p style="font-size: 20px; color: white; margin-left: 50px;">Global design and manufacturing servive provider</p>
-        <small style="color: white; font-size: 15px; margin-left: 50px;">To be small , medium and large segments and cater the global customer with top notch quality</small>
+        <p style="color: white; font-size: 15px; margin-left: 50px;">To be small , medium and large segments and cater theglobal customer with top notch quality</p>
       </div>
       <div  class="col col-lg-6 text-center mt-5">
         <button  type="button" style= "width:250px; background-color: #FF0566;" class="btn btn-danger">Arrange a potential analysis now </button><br />
@@ -616,10 +584,10 @@
       </div>
     </div>
   </div>
-
-  <div style="background-color: lightgrey;" class="container-fluid mt-5">
-    <center><h4>About us</h4></center>
-    <center><h1>Skilled workers in a whole new way</h1></center>
+  <br />
+  <div style="background-color: #F5F5F5;" class="container-fluid mt-5">
+    <center><h4 class="mt-5">About us</h4></center>
+    <center><h1 class="mt-3">Skilled workers in a whole new way</h1></center>
     <p style="text-align:center;">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -631,106 +599,110 @@
   </div>
 
   <center><h4 class="pink mt-5" id="dmls">3D Printing</h4></center><br />
+  <div class="container-fluid">
+    
 
-  <button onclick="myFunction()" style="width: 16%; height: 70px;" type="button" class="btn btn-dark active">DMLS</button>
-  <button onclick="myFunction2()"style="width: 16%; height: 70px;" type="button" data-bs-toggle="button" aria-pressed="true" class="btn btn-light large">FDM</button>
-  <button style="width: 16%; height: 70px;" type="button" class="btn btn-light large">MJF</button>
-  <button style="width: 16%; height: 70px;" type="button" class="btn btn-light large">POLYJET</button>
-  <button style="width: 17%; height: 70px;" type="button" class="btn btn-light large">SLA</button>
-  <button style="width: 17%; height: 70px;" type="button" class="btn btn-light large">SLS</button><br />
-  <!-- <button onclick="myFunction()">Click me</button> -->
+    <button onclick="myFunction()" style="width: 15%; height: 70px; margin-left: 3%;" type="button" class="btn btn-dark active">DMLS</button>
+    <button onclick="myFunction2()" style="width: 15%; height: 70px;" type="button" data-bs-toggle="button" aria-pressed="true" class="btn btn-light large">FDM</button>
+    <button style="width: 15%; height: 70px;" type="button" class="btn btn-light large">MJF</button>
+    <button style="width: 15%; height: 70px;" type="button" class="btn btn-light large">POLYJET</button>
+    <button style="width: 15%; height: 70px; " type="button" class="btn btn-light large">SLA</button>
+    <button style="width: 15%; height: 70px; margin-right: 3%; " type="button" class="btn btn-light large">SLS</button>
+    <!-- <button onclick="myFunction()">Click me</button> -->
 
-<p id="real"></p>
-<!-- <p id="reall"></p> -->
-
-
+    <p id="real" style="margin-left: 3%; margin-right: 3%;"></p>
+  <div class="row">
+      <div class="col col-md-2 col-sm-2">
 
 <!-- 
 <div style='background-color: white; box-shadow: 4px 4px 4px lightgray;' class=' container-fluid mt-5 card-body shadow p-3  rounded'><div style='margin-left: 20px;' class='row'><div style='font-size: 20px;' class='col col-md-8 col-sm-8 mt-5'><strong><p>Direct Metal laser sintering (DMLS)</p></strong><br /><h5 style='color: red;'>Make</h5><p>EOS – Industrial Grade DMLS 3Dprinter</p><br /><h5 style='color: red;'>Printer Details</h5><ul><li>Max build size : 250 x 250 x 300mm</li><li>Material supported: Aluminium (ALSi10Mg), Cobalt chrome MP1, Inconel 325, Inconel 718, Maraging Steel MS1, Stainless Steel 316L, Titanium Ti64 & More</li><li>Number of printers : 03</li></ul></div><div class='col col-md-4 col-sm-4 mt-5'><img style='margin-left: 200px;' src='public/images/direct1.png' alt='image' height='200px' width='200px'><br /><br /><img style='margin-left: 200px;' src='public/images/direct2.png' alt='image' height='200px' width='200px'><br /><br /><img style='margin-left: 200px;' src='public/images/direct3.png' alt='image' height='200px' width='200px'><br /></div></div></div> -->
 
 <script>
+        function myFunction() {
+            document.getElementById("real").innerHTML = "<div style='background-color: white; box-shadow: 4px 4px 4px lightgray;' class=' container-fluid card-body shadow p-3  rounded'><div style='margin-left: 20px;' class='row'><div style='font-size: 20px;' class='col col-md-8 col-sm-8 mt-5'><strong><p><h4>Direct Metal Laser Sintering (DMLS)</h4></p></strong><br /><h7 style='color: red;'>Make</h7><p>EOS – Industrial Grade DMLS 3Dprinter</p><br /><h7 style='color: red;'>Printer Details</h7><ul style='font-size: 15px; line-height:60px;'><li>Max build size : 250 x 250 x 300mm</li><li>Material supported: Aluminium (ALSi10Mg), Cobalt chrome MP1, Inconel 325, Inconel 718, Maraging Steel MS1, Stainless Steel 316L, Titanium Ti64 & More</li><li>Number of printers : 03</li></ul></div><div class='col col-md-4 col-sm-4 mt-5'><img style='margin-left: 200px;' src='public/images/direct1.png' alt='image' height='200px' width='200px'><br /><br /><img style='margin-left: 200px;' src='public/images/direct2.png' alt='image' height='200px' width='200px'><br /><br /><img style='margin-left: 200px;' src='public/images/direct3.png' alt='image' height='200px' width='200px'><br /></div></div></div>";
+        }
 
-function myFunction() {
-  document.getElementById("real").innerHTML = "<div style='background-color: white; box-shadow: 4px 4px 4px lightgray;' class=' container-fluid mt-5 card-body shadow p-3  rounded'><div style='margin-left: 20px;' class='row'><div style='font-size: 20px;' class='col col-md-8 col-sm-8 mt-5'><strong><p>DLMS</p></strong><br /><h5 style='color: red;'>Make</h5><p>EOS – Industrial Grade DMLS 3Dprinter</p><br /><h5 style='color: red;'>Printer Details</h5><ul><li>Max build size : 250 x 250 x 300mm</li><li>Material supported: Aluminium (ALSi10Mg), Cobalt chrome MP1, Inconel 325, Inconel 718, Maraging Steel MS1, Stainless Steel 316L, Titanium Ti64 & More</li><li>Number of printers : 03</li></ul></div><div class='col col-md-4 col-sm-4 mt-5'><img style='margin-left: 200px;' src='public/images/direct1.png' alt='image' height='200px' width='200px'><br /><br /><img style='margin-left: 200px;' src='public/images/direct2.png' alt='image' height='200px' width='200px'><br /><br /><img style='margin-left: 200px;' src='public/images/direct3.png' alt='image' height='200px' width='200px'><br /></div></div></div>";
-}
+        myFunction();
 
-function myFunction2() {
-  document.getElementById("real").innerHTML = "<div style='background-color: white; box-shadow: 4px 4px 4px lightgray;' class=' container-fluid mt-5 card-body shadow p-3  rounded'><div style='margin-left: 20px;' class='row'><div style='font-size: 20px;' class='col col-md-8 col-sm-8 mt-5'><strong><p>FDM</p></strong><br /><h5 style='color: red;'>Make</h5><p>EOS – Industrial Grade DMLS 3Dprinter</p><br /><h5 style='color: red;'>Printer Details</h5><ul><li>Max build size : 250 x 250 x 300mm</li><li>Material supported: Aluminium (ALSi10Mg), Cobalt chrome MP1, Inconel 325, Inconel 718, Maraging Steel MS1, Stainless Steel 316L, Titanium Ti64 & More</li><li>Number of printers : 03</li></ul></div><div class='col col-md-4 col-sm-4 mt-5'><img style='margin-left: 200px;' src='public/images/direct1.png' alt='image' height='200px' width='200px'><br /><br /><img style='margin-left: 200px;' src='public/images/direct2.png' alt='image' height='200px' width='200px'><br /><br /><img style='margin-left: 200px;' src='public/images/direct3.png' alt='image' height='200px' width='200px'><br /></div></div></div>";
-}
-</script>
+        function myFunction2() {
+            document.getElementById("real").innerHTML = "<div style='background-color: white; box-shadow: 4px 4px 4px lightgray;' class=' container-fluid card-body shadow p-3  rounded'><div style='margin-left: 20px;' class='row'><div style='font-size: 20px;' class='col col-md-8 col-sm-8 mt-5'><strong><p><h4>FDM</h4></p></strong><br /><h7 style='color: red;'>Make</h7><p>EOS – Industrial Grade DMLS 3Dprinter</p><br /><h7 style='color: red;'>Printer Details</h7><ul style='font-size: 15px;line-height:60px;'><li>Max build size : 250 x 250 x 300mm</li><li>Material supported: Aluminium (ALSi10Mg), Cobalt chrome MP1, Inconel 325, Inconel 718, Maraging Steel MS1, Stainless Steel 316L, Titanium Ti64 & More</li><li>Number of printers : 03</li></ul></div><div class='col col-md-4 col-sm-4 mt-5'><img style='margin-left: 200px;' src='public/images/direct1.png' alt='image' height='200px' width='200px'><br /><br /><img style='margin-left: 200px;' src='public/images/direct2.png' alt='image' height='200px' width='200px'><br /><br /><img style='margin-left: 200px;' src='public/images/direct3.png' alt='image' height='200px' width='200px'><br /></div></div></div>";
+        }
 
-<script>
-function changeImage() {
-    if (document.getElementById("imgClickAndChange").src == "public/images/plus.png"){
-        document.getElementById("imgClickAndChange").src = "public/images/plus.png";
-    } else {
-        document.getElementById("imgClickAndChange").src = "public/images/minus.svg";
-        document.getElementById("demo").innerHTML = "<p style='font-size:17px;'>Yes, we will suggest the best material / process <br />to meet your project requirements</p>";
+        function changeImage() {
+            if (!document.getElementById("imgClickAndChange").src.toString().includes("plus.png")) {
+                document.getElementById("imgClickAndChange").src = "public/images/plus.png";
+                document.getElementById("demo").innerHTML = "";
+            } else {
+                document.getElementById("imgClickAndChange").src = "public/images/minus.svg";
+                document.getElementById("demo").innerHTML = "<p style='font-size:15px;' class='mt-3'>Yes, we will suggest the best material / process <br />to meet your project requirements</p>";
 
-    }
-}
-</script> 
-<script>
-function changeImage2() {
-    if (document.getElementById("three").src == "public/images/plus.png"){
-        document.getElementById("three").src = "public/images/plus.png";
-    } else {
-        document.getElementById("three").src = "public/images/minus.svg";
-        document.getElementById("demo2").innerHTML = "<p style='font-size:17px;'>Yes, we will suggest the best material / process <br />to meet your project requirements</p>";
-    }
-}
-</script> 
+            }
+        }
 
-<script>
-function changeImage3() {
-    if (document.getElementById("four").src == "public/images/plus.png"){
-        document.getElementById("four").src = "public/images/plus.png";
-    } else {
-        document.getElementById("four").src = "public/images/minus.svg";
-        document.getElementById("demo3").innerHTML = "<p style='font-size:17px;'>Yes</p>";
-    }
-}
-</script> 
-<script>
-function changeImage4() {
-    if (document.getElementById("five").src == "public/images/plus.png"){
-        document.getElementById("five").src = "public/images/plus.png";
-    } else {
-        document.getElementById("five").src = "public/images/minus.svg";
-        document.getElementById("demo4").innerHTML = "<p style='font-size:17px;'>Yes</p>";
-    }
-}
-</script> 
-<script>
-function changeImage5() {
-    if (document.getElementById("six").src == "public/images/plus.png"){
-        document.getElementById("six").src = "public/images/plus.png";
-    } else {
-        document.getElementById("six").src = "public/images/minus.svg";
-        document.getElementById("demo5").innerHTML = "<p style='font-size:17px;'>Yes, we will hand hold from concept to end sellable product </p>";
-    }
-}
-</script> 
-<script>
-function changeImage6() {
-    if (document.getElementById("seven").src == "public/images/plus.png"){
-        document.getElementById("seven").src = "public/images/plus.png";
-    } else {
-        document.getElementById("seven").src = "public/images/minus.svg";
-        document.getElementById("demo6").innerHTML = "<p style='font-size:17px;'>Yes </p>";
-    }
-}
-</script> 
-<script>
-function changeImage7() {
-    if (document.getElementById("eight").src == "public/images/plus.png"){
-        document.getElementById("eight").src = "public/images/plus.png";
-    } else {
-        document.getElementById("eight").src = "public/images/minus.svg";
-        document.getElementById("demo7").innerHTML = "<p style='font-size:17px;'>We will get all the required tests done as per product category </p>";
-    }
-}
-</script> 
+        function changeImage2() {
+            if (!document.getElementById("three").src.toString().includes("plus.png")) {
+                document.getElementById("three").src = "public/images/plus.png";
+                document.getElementById("demo2").innerHTML = "";
+            } else {
+                document.getElementById("three").src = "public/images/minus.svg";
+                document.getElementById("demo2").innerHTML = "<p style='font-size:15px;' class='mt-3'>Yes, we will suggest the best material / process <br />to meet your project requirements</p>";
+            }
+        }
+
+        function changeImage3() {
+            if (!document.getElementById("four").src.toString().includes("plus.png")) {
+                document.getElementById("four").src = "public/images/plus.png";
+                document.getElementById("demo3").innerHTML = "";
+            } else {
+                document.getElementById("four").src = "public/images/minus.svg";
+                document.getElementById("demo3").innerHTML = "<p style='font-size:15px;'  class='mt-3'>Yes</p>";
+            }
+        }
+
+        function changeImage4() {
+            if (!document.getElementById("five").src.toString().includes("plus.png")) {
+                document.getElementById("five").src = "public/images/plus.png";
+                document.getElementById("demo4").innerHTML = "";
+            } else {
+                document.getElementById("five").src = "public/images/minus.svg";
+                document.getElementById("demo4").innerHTML = "<p style='font-size:15px;'  class='mt-3'>Yes</p>";
+            }
+        }
+
+        function changeImage5() {
+            if (!document.getElementById("six").src.toString().includes("plus.png")) {
+                document.getElementById("six").src = "public/images/plus.png";
+                document.getElementById("demo5").innerHTML = "";
+            } else {
+                document.getElementById("six").src = "public/images/minus.svg";
+                document.getElementById("demo5").innerHTML = "<p style='font-size:15px;'  class='mt-3'>Yes, we will hand hold from concept to end sellable product </p>";
+            }
+        }
+
+        function changeImage6() {
+            if (!document.getElementById("seven").src.toString().includes("plus.png")) {
+                document.getElementById("seven").src = "public/images/plus.png";
+                document.getElementById("demo6").innerHTML = "";
+            } else {
+                document.getElementById("seven").src = "public/images/minus.svg";
+                document.getElementById("demo6").innerHTML = "<p style='font-size:15px;' class='mt-3'>Yes </p>";
+            }
+        }
+
+        function changeImage7() {
+            if (!document.getElementById("eight").src.toString().includes("plus.png")) {
+                document.getElementById("eight").src = "public/images/plus.png";
+                document.getElementById("demo7").innerHTML = "";
+            } else {
+                document.getElementById("eight").src = "public/images/minus.svg";
+                document.getElementById("demo7").innerHTML = "<p style='font-size:15px;' class='mt-3'>We will get all the required tests done as per product category </p>";
+            }
+        }
+    </script>
+  </div>
+</div>
+</div>
+
 
 <!-- <p>
     <img alt="" src="public/images/plus.png" 
@@ -743,87 +715,95 @@ function changeImage7() {
     <center><h4 class="pink">FAQ</h4></center>
     <center><h1 class="mt-5">At Gennuine Global we manage Ideas and bring to life</h1></center>
   </div>
-  <div class="container-fluid mt-5">
-    <div class="row">
-      <div class="col-md-6">
-        <div style="margin-top:2%;" class="card-body shadow p-3  rounded">
-          <div style="margin-top:2%;"class="card-body">
-            <h5 style="font-size: 18px;" class="card-title">Q1: We have already tried a lot. Does your method really work? <img onclick="changeImage()" style="float: right" id="imgClickAndChange" src="public/images/plus.png" alt="image"></h5>
-            <p id="demo"></p>
-          </div>
+  <div class="container-fluid mt-5 p-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div style="margin-top:2%;" class="card-body shadow p-3  rounded">
+                    <div style="margin-top:2%;" class="card-body">
+                        <h5 style="font-size: 18px;" class="card-title">Q1: We have already tried a lot. Does your method really work? <img onclick="changeImage()" style="float: right" id="imgClickAndChange" src="public/images/plus.png" alt="image"></h5>
+                        <p id="demo"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div style="margin-top:2%" class="card-body shadow p-3  rounded">
+
+                    <div style="margin-top:2%" class="card-body">
+                        <h5 style="font-size: 18px;" class="card-title">Q2: Do you make sheet metal <img style="float: right" src="public/images/plus.png" id="five" onclick="changeImage4()" alt="image"></h5>
+                        <p id="demo4"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div style="margin-top:2%" class="card-body shadow p-3  rounded">
+                    <div style="margin-top:2%;" class="card-body">
+                        <h5 style="font-size: 18px;" class="card-title">Q3: We have already tried a lot. Does your method really work? <img style="float: right" id="three" onclick="changeImage2()" src="public/images/plus.png" alt="image"></h5>
+                        <p id="demo2"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div style="margin-top:2%" class="card-body shadow p-3  rounded">
+                    <div style="margin-top:2%;" class="card-body">
+                        <h5 style="font-size: 18px;" class="card-title">Q4: Will you help us in complete box build <img style="float: right" src="public/images/plus.png" id="six" onclick="changeImage5()" alt="image"></h5>
+                        <p id="demo5"></p>
+
+                        <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div style="margin-top:2%" class="card-body shadow p-3  rounded">
+                    <div style="margin-top:2%;" class="card-body">
+                        <h5 style="font-size: 18px;" class="card-title">Q5: Do you make 3D rendering of product <img style="float: right" src="public/images/plus.png" id="four" onclick="changeImage3()" alt="image"></h5>
+                        <p id="demo3"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div style="margin-top:2%" class="card-body shadow p-3  rounded">
+
+                    <div style="margin-top:2%;" class="card-body">
+                        <h5 style="font-size: 18px;" class="card-title">Q6: Will you provide SI/PI/Thermal analysis service <img style="float: right" src="public/images/plus.png" id="seven" onclick="changeImage6()" alt="image"></h5>
+                        <p id="demo6"></p>
+                        <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div style="margin-top:2%" class="card-body shadow p-3  rounded">
+                    <div style="margin-top:2%;" class="card-body">
+                        <h5 style="font-size: 18px;" class="card-title">Q7: Will you help in EMI/EMC compliance tests <img style="float: right" src="public/images/plus.png" id="eight" onclick="changeImage7()" alt="image"></h5>
+                        <p id="demo7"></p>
+
+                        <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div style="margin-top:2%" class="card-body shadow p-3  rounded">
-          <div style="margin-top:2%;" class="card-body">
-            <h5 style="font-size: 18px;" class="card-title">Q3: We have already tried a lot. Does your method really work? <img style="float: right" id="three" onclick="changeImage2()" src="public/images/plus.png" alt="image"></h5>
-            <p id="demo2"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div style="margin-top:2%" class="card-body shadow p-3  rounded">
-          <div  style="margin-top:1%;" class="card-body">
-            <h5 style="font-size: 18px;" class="card-title">Q5: Do you make 3D rendering of product <img style="float: right" src="public/images/plus.png" id="four" onclick="changeImage3()" alt="image"></h5>
-            <p id="demo3"></p>
-          </div>
-        </div>
-        <div style="margin-top:2%" class="card-body shadow p-3  rounded">
-
-          <div style="margin-top:1%" class="card-body">
-            <h5 style="font-size: 18px;" class="card-title">Q2: Do you make sheet metal <img style="float: right" src="public/images/plus.png" id="five" onclick="changeImage4()" alt="image"></h5>
-            <p id="demo4"></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div style="margin-top:2%" class="card-body shadow p-3  rounded">
-          <div class="card-body">
-            <h5 style="font-size: 18px;" class="card-title">Q4: Will you help us in complete box build <img style="float: right" src="public/images/plus.png" id="six" onclick="changeImage5()"alt="image"></h5>
-            <p id="demo5"></p>
-
-          <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-        <div style="margin-top:2%" class="card-body shadow p-3  rounded">
-
-          <div class="card-body">
-            <h5 style="font-size: 18px;" class="card-title">Q6: Will you provide SI/PI/Thermal analysis service <img style="float: right" src="public/images/plus.png" id="seven" onclick="changeImage6()" alt="image"></h5>
-            <p id="demo6"></p>
-          <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div style="margin-top:2%" class="card-body shadow p-3  rounded">
-          <div class="card-body">
-            <h5 style="font-size: 18px;" class="card-title">Q7: Will you help in EMI/EMC compliance tests <img style="float: right" src="public/images/plus.png" id="eight" onclick="changeImage7()"alt="image"></h5>
-            <p id="demo7"></p>
-
-          <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a> -->
-          </div>
-        </div>
     </div>
-  </div>
 
 
   <div style="color: white ; background-color: #311B24;" height="100px" width="100px" class="container-fluid mt-5">
     <div class="row">
-      <div class="col mt-5">
+      <div class="col col-md-4 col-sm-3 mt-5">
         <img style="float: left; margin-left: 13%;" src="public/images/g.png" alt="image" height="80px" width="80px" />
       </div>
-      <div class="col mt-3 text-center">
-        <p><u>Privacy poliy</u></p>
+      <div class="col col-md-4 col-sm-3 mt-3 text-center">
+        <p><u>Privacy policy</u></p>
         <p style="font-size: 10px">This site is not part of the Facebook<sup>TM</sup> Website or Facebook<sup>TM<sup> Inc.</p> 
           <p style="font-size: 10px"> Additionaly, this site is NOT endorsed by Facebook<sup>TM</sup> in any way. FACEBOOK<sup>TM</sup> is a trademark of FACEBOOK<sup>TM</sup>, Inc.</p>
           <p>@2022 Gennuine , All rights reserved</p>
         </div>
-        <div style="float:right;"class="col mt-4 text-right">
-          <p style="margin-left: 280px;">Contact</p>
-          <p style="margin-left: 200px;">info@gennuine.com</p>
-          <img style="float: 80px; padding: 6px; margin-left: 170px;" src="public/images/facebook.svg" alt="image">
+        <div style="float:right;"class="col col-md-3 col-sm-3 mt-4 text-center">
+          <p >Contact</p>
+          <p >info@gennuine.com</p>
+          <img style="float: 80px; padding: 6px;" src="public/images/facebook.svg" alt="image">
           <img style="float: 80px; padding: 6px;" src="public/images/in.svg" alt="image" >
           <img style="float: 80px; padding: 6px;" src="public/images/insta.svg" alt="image" >
         </div>
